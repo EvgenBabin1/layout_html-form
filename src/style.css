@@ -1,13 +1,8 @@
 .fieldset-input {
   margin-bottom: 20px;
-  padding-bottom: 0;
 }
 
 .input-row {
   display: block;
   margin-bottom: 10px;
-}
-
-form {
-  display: block;
 }

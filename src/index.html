@@ -13,9 +13,8 @@
   <body>
     <form
     class="personal-info-form"
-    method="get"
-    action="/"
-    autocomplete="off"
+    method="post"
+    action="http://localhost:8080/api"
     >
       <fieldset class="fieldset-input">
         <legend class="legend personal-info">Personal information</legend>
@@ -27,7 +26,6 @@
           <input
           name="surname"
           type="text"
-          required
           autocomplete="off"
           >
         </label>
@@ -53,8 +51,6 @@
           value="12"
           min="1"
           max="100"
-          autocomplete="off"
-          required
           >
         </label>
         <label
@@ -66,7 +62,6 @@
           name="date"
           type="date"
           placeholder="дд.мм.гггг"
-          autocomplete="off"
           >
         </label>
         <label
@@ -152,7 +147,6 @@
           <input
           name="time"
           type="time"
-          autocomplete="off"
           >
         </label>
         <label
@@ -178,7 +172,6 @@
           max="12"
           name="rate"
           type="range"
-          autocomplete="off"
           >
         </label>
       </fieldset>
